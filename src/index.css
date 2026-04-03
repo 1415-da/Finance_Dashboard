@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* Light Theme - Corporate/Fintech */
-  --bg-base: #f4f6f8;
+  /* Light Theme - Professional Banking (Richer Colors) */
+  --bg-base: linear-gradient(135deg, #e0eaf5 0%, #f4f7fa 50%, #e2ecf7 100%); /* Soft premium blue gradient background */
   --bg-surface: #ffffff;
   --bg-surface-glass: #ffffff;
-  --text-main: #111827;
-  --text-muted: #6b7280;
+  --text-main: #0f172a; /* Slate dark navy instead of generic black */
+  --text-muted: #475569;
   --text-inverse: #ffffff;
   
-  --accent-primary: #0f3a61; /* Professional Navy */
-  --accent-primary-hover: #1e4b7a;
+  --accent-primary: #0052cc; /* Rich, vibrant corporate blue (like Chase/Amex) */
+  --accent-primary-hover: #0043a8;
   --accent-success: #059669;
   --accent-success-light: #d1fae5;
   --accent-danger: #dc2626;
   --accent-danger-light: #fee2e2;
   --accent-warning: #d97706;
   
-  --border-color: #e5e7eb;
-  --border-focus: rgba(15, 58, 97, 0.4);
+  --border-color: #cbd5e1; /* Crisp cool-grey borders */
+  --border-focus: rgba(0, 82, 204, 0.4);
   
   --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
@@ -60,9 +60,9 @@
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background-color: var(--bg-base);
+  background: var(--bg-base);
   color: var(--text-main);
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }

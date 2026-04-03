@@ -1,4 +1,4 @@
-# OverseasBank Financial Dashboard
+# MyFinance Financial Dashboard
 
 A premium, highly responsive frontend application crafted to deliver robust financial analytics, deep insight tracking, and transaction management inside a professional banking environment. 
 

@@ -6,8 +6,8 @@ export default function Sidebar() {
   return (
     <aside className="sidebar glass-panel">
       <div className="logo-container">
-        <div className="logo-icon">OB</div>
-        <h2 className="logo-text">OverseasBank</h2>
+        <div className="logo-icon">MF</div>
+        <h2 className="logo-text">MyFinance</h2>
       </div>
       
       <nav className="nav-menu">
